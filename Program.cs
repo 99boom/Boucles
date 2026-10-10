@@ -20,6 +20,15 @@ class Program
 
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
 
+        Console.WriteLine("\nStep 2 : ");
+
+        for (int h = 5; h >= 1; h--)
+        {
+            Console.WriteLine(h);
+        }
+
+        Console.WriteLine("HAPPY NEW YEAR !!!");
+
         // Etape 3 : faire un compteur qui va de -4 à 2
 
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
