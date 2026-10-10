@@ -1,4 +1,6 @@
-﻿namespace Boucles;
+﻿using System.ComponentModel.Design;
+
+namespace Boucles;
 
 class Program
 {
@@ -48,6 +50,20 @@ class Program
         }
 
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
+        
+        Console.WriteLine("\nStep 5 : ");
+
+        Console.WriteLine("Start the program ? : YES/NO");
+        string start = Console.ReadLine();
+
+        while (start != "YES")
+        {
+            Console.WriteLine("Start the program ? : YES/NO");
+            start = Console.ReadLine();
+        }
+
+        Console.WriteLine("Welcome in the new program !!!");
+
 
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
